@@ -4,13 +4,21 @@ import viteLogo from "/vite.svg";
 import Navbar from "./Component/Navbar";
 import Card from "./Component/Card";
 import Header from "./Component/Header";
+import image1 from './assets/image1.jpg'
+import image2 from './assets/image2.jpg'
+import image3 from './assets/image3.jpg'
+import image4 from './assets/image4.jpg'
+import image5 from './assets/image5.jpg'
+import image6 from './assets/image6.jpg'
+import image7 from './assets/image7.jpg'
+import image8 from './assets/image8.jpg'
 
 function App() {
 const [cart, setCart] = useState(0)
 let data = [
   {
     id:1,
-    image: 'src/assets/image1.jpg',
+    image: image1,
     title: 'Half Slevees Shirt',
     price: '$40.00 - $80.00',
     isStrikePrice: false,
@@ -21,7 +29,7 @@ let data = [
 
   {
     id:2,
-    image: 'src/assets/image2.jpg',
+    image: image2,
     title: 'Full Slevees Shirt',
     price: '$18.00',
     isStrikePrice: true,
@@ -33,7 +41,7 @@ let data = [
 
   {
     id:3,
-    image: 'src/assets/image3.jpg',
+    image: image3,
     title: 'Slim Fit Shirt',
     price: '$25.00',
     isStrikePrice: true,
@@ -45,7 +53,7 @@ let data = [
 
   {
     id:4,
-    image: 'src/assets/image4.jpg',
+    image: image4,
     title: 'Designer Shirt',
     price: '$40.00',
     isStrikePrice: false,
@@ -57,7 +65,7 @@ let data = [
 
   {
     id:5,
-    image: 'src/assets/image5.jpg',
+    image: image5,
     title: 'T-Shirt',
     price: '$25.00',
     isStrikePrice: true,
@@ -69,7 +77,7 @@ let data = [
 
   {
     id:6,
-    image: 'src/assets/image6.jpg',
+    image: image6,
     title: 'Full Hand T-Shirt',
     price: '$120.00 - $280.00',
     isStrikePrice: false,
@@ -81,7 +89,7 @@ let data = [
 
   {
     id:7,
-    image: 'src/assets/image7.jpg',
+    image: image7,
     title: 'Round Neck T-Shirt',
     price: '$18.00',
     isStrikePrice: true,
@@ -93,7 +101,7 @@ let data = [
 
   {
     id:8,
-    image: 'src/assets/image8.jpg',
+    image: image8,
     title: 'Pant',
     price: '$40.00',
     isStrikePrice: false,

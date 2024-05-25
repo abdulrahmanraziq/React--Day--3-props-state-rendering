@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 
 function Card({ dataset, setCart }) {
-  console.log("dataset:", dataset);
   const [toggle, setToggle] = useState(true);
   return (
     <>
